@@ -1,0 +1,40 @@
+* MySQL Database Tables and Contents
+
+o Bus Stop Locations - would contain information about the stops along the bus route.
+* id (int) 
+* name (string) 
+* latitude (double)
+* longitude (double)
+
+
+o Buses 
+* id (int)
+* currentRoute (boolean)
+Latitude 
+
+
+
+
+Create table BusStop(
+
+Id number primary key,
+Name varchar(128) not null,
+Latitude number unique ,
+Longitude number unique
+);
+
+
+
+Create table Bus (
+
+Id number primary key,
+Current_Route tinyint not null 
+);
+
+
+
+
+
+
+
+
