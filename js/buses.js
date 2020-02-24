@@ -152,7 +152,7 @@ var Buses = {
 		'302': {"name": "Ja-Ela","lat": 7.07824,"lon": 79.8905},
 		'303': {"name": "Katunayake Airport","lat": 7.16564,"lon": 79.8841}
 	},
-	
+
 	routes: {
 	 "1":{
 			"routeno":"138",
@@ -1843,7 +1843,7 @@ var Buses = {
 			}
 	 }
 },
-	
+
 	groups: {
 		"1":{
 			"routes":["1","2","3","4","5","6"],

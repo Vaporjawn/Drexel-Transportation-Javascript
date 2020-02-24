@@ -78,7 +78,7 @@ class SourceInput extends Component {
     render() {
         return (
             <div className="input-group input-group-lg">
-                <input id="source" type="text" className="form-control" placeholder="I'm at..." 
+                <input id="source" type="text" className="form-control" placeholder="I'm at..."
                     value={this.props.appState.source.name} onChange={this.handleInput}/>
                 <span className="input-group-btn">
                     <LocateMeButton {...this.props}/>
@@ -101,7 +101,7 @@ class DestinationInput extends Component {
     render() {
         return (
             <div className="input-group input-group-lg">
-                <input id="destination" type="text" className="form-control" placeholder="I want to go to..." 
+                <input id="destination" type="text" className="form-control" placeholder="I want to go to..."
                     value={this.props.appState.destination.name} onChange={this.handleInput}/>
                 <span className="input-group-btn">
                     <button onClick={this.props.findRoutes} className="btn btn-default btn-success" type="button">
